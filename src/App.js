@@ -79,14 +79,14 @@ export default function Game() {
   });
   return (
     <div className="game">
+      <div>
+        <h2>Gokul Krishna V's Tic-Tac-Toe</h2>
+      </div>
       <div className="game-board">
       <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
         <ol>{moves}</ol>
-      </div>
-      <div>
-        <h1>Gokul Krishna V</h1>
       </div>
     </div>
   );
@@ -111,3 +111,6 @@ function calculateWinner(squares) {
   }
   return null;
 }
+
+
+
