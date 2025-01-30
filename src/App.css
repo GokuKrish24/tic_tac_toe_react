@@ -43,6 +43,7 @@
   justify-content: center;
   height: 100vh; /* Make it full screen */
   text-align: center;
+  background-color: beige;
 }
 
 .game-board {
